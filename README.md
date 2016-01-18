@@ -16,6 +16,10 @@ The player who runs out of places to move first loses
 ##Playing the Game
 To play the game, navigate to where isolation.py is and run that file ' python isolation.py'
 
+in single number inputs, enter number without spaces '1'
+
+in tuple like inputs, enter without parentheses '1,1'
+
 ##Testing
 To run tests run ' python -m unittest ' in the main directory
 
