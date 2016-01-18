@@ -56,10 +56,10 @@ class Isolation(object):
 
             #update turn
             curr_play += 1
-            curr_play &= 2
+            curr_play %= 2 
             
         #end of loop
-        print('player {0} lost! player {1} won!'.format(players[curr_play], players[curr_play-1]))
+        print('player {0} lost! player {1} won!'.format(curr_play+1, (curr_play+2)%3))
 
 
 def main():
