@@ -2,16 +2,17 @@
 
 this game is used by many AI classes for teaching purposes
 
-##Game Mechanics
-There are 2 players and a fixed board. 
+##Game Rules
+The rules of Isolation are simple. Two players take turns placing their
+own game piece on different squares of a 5 by 5 grid. After the first two
+moves (in which each player puts their piece on an unoccupied square),
+the pieces move like queens in chess: diagonally, horizontally and
+vertically up to the edge of the board. Each time a player moves their
+piece, the square that they were previously occupying is blocked and
+cannot be moved to or moved through, for the remainder of the game. In
+addition, the players may not move through one another or occupy the
+same square. The first player who is unable to move loses.
 
-First Each player can place their piece anywhere on the board without overlapping.
-
-Then each play can move in a chess piece queen fashion and their original tile can not be moved to again by both players
-
-The pieces cannot overlap
-
-The player who runs out of places to move first loses
 
 ##Playing the Game
 To play the game, navigate to where isolation.py is and run that file ' python isolation.py'
